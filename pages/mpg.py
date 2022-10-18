@@ -59,3 +59,8 @@ psh = px.histogram(data, x="origin")
 psh
 
 st.area_chart(data[["mpg","cylinders"]], use_container_width=True)
+
+#scatterplot
+sct, ax = plt.subplots(figsize=(10,3))
+sns.scatterplot(data=data, x='origin', y='mpg')
+st.pyplot(sct)
