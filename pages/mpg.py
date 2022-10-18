@@ -64,3 +64,5 @@ st.area_chart(data[["mpg","cylinders"]], use_container_width=True)
 sct, ax = plt.subplots(figsize=(10,3))
 sns.scatterplot(data=data, x='origin', y='mpg')
 st.pyplot(sct)
+
+sns.swarmplot(data=mpg_year, x="origin", y="horsepower").set_title(f"{selected_year}년 지역별 마력")
