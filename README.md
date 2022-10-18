@@ -18,5 +18,5 @@
 * 시각화하기
 
 > 이미지첨부연습
-<img src ="Streamlit - HTML, CSS, JS 없이 Python으로 웹사이트 만들기 5-20 screenshot.png", width="480" height="320">
+<img src ="Streamlit - HTML, CSS, JS 없이 Python으로 웹사이트 만들기 5-20 screenshot.png" width="480" height="320">
 - 생활코딩 Streamlit 강의 캡쳐
